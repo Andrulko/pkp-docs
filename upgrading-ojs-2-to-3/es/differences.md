@@ -2,23 +2,23 @@
 
 Aunque las características fundamentales de OJS son consistentes entre las versiones, hay algunos cambios y mejoras significativas en OJS 3. Las nuevas características en OJS 3 incluyen lo siguiente, algunas de las cuales se explican con más detalle a continuación:
 
-- Diseño adaptable y optimizado para dispositivos móviles
-- Nuevos temas
-- Flujo de trabajo editorial flexible
-- Integración de módulos con ORCID, iThenticate, Publons y otros servicios externos
-- Registro de usuarios/as simplificado
-- Roles y permisos personalizables
-- Informes internos y estadísticos de uso ampliados
-- Soporte multilingüe para nombres de autor/a
-- Soporte para colecciones temáticas o categorías de artículos
+* Diseño adaptable y optimizado para dispositivos móviles
+* Nuevos temas
+* Flujo de trabajo editorial flexible
+* Integración de módulos con ORCID, iThenticate, Publons y otros servicios externos
+* Registro de usuarios/as simplificado
+* Roles y permisos personalizables
+* Informes internos y estadísticos de uso ampliados
+* Soporte multilingüe para nombres de autor/a
+* Soporte para colecciones temáticas o categorías de artículos
 
 ## Interfaz de OJS 3
 
 Hay una nueva interfaz para lectores/as y editores/as que incluye una interfaz editorial distinta visualmente a la de la revista. Los usuarios/as con múltiples roles ya no están obligados a seleccionar un rol desde el área personal de su página de inicio para acceder a ciertas configuraciones o funciones administrativas. Todas las opciones disponibles se pueden localizar en el nuevo panel de instrumentos. Esto también permite un cambio continuo entre tareas asociadas a diferentes roles. La nueva interfaz se muestra a continuación y se explica en [Novedades de OJS 3](https://docs.pkp.sfu.ca/learning-ojs/es/introduction#novedades-en-ojs-31) .
 
-![](./assets/ojs-2-settings.png) | ![](./assets/ojs-3-dashboard.png)
-:---: | :---:
-Menú de configuración de OJS 2 después de seleccionar el rol de administrador/a del sitio | Panel de OJS 3 con menús de configuración en el panel izquierdo
+|                             ![](./assets/ojs-2-settings.png)                              |                ![](./assets/ojs-3-dashboard.png)                |
+|:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
+| Menú de configuración de OJS 2 después de seleccionar el rol de administrador/a del sitio | Panel de OJS 3 con menús de configuración en el panel izquierdo |
 
 ## Flujo de trabajo de OJS 3
 
@@ -43,9 +43,9 @@ OJS 3 tiene nuevas características estadísticas, como un panel visual de estad
 
 También hay algunas características de OJS 2 que se han descartado o que aún están en desarrollo para OJS 3, incluidas las siguientes:
 
-- Algunos módulos no se han portado a OJS 3, entre ellos Books for Review y Dataverse
-- La administración de plantillas de correo electrónico y la administración de notificaciones de usuario/a aún se están perfeccionando
-- La funcionalidad de pagos y suscripciones está menos desarrollada y algunas funciones no están disponibles, incluidas las donaciones
+* Algunos módulos no se han portado a OJS 3, entre ellos Books for Review y Dataverse
+* La administración de plantillas de correo electrónico y la administración de notificaciones de usuario/a aún se están perfeccionando
+* La funcionalidad de pagos y suscripciones está menos desarrollada y algunas funciones no están disponibles, incluidas las donaciones
 
 Es importante hacer un inventario de sus módulos y características más útiles y más utilizados y comprobar la disponibilidad en la versión más reciente de OJS antes de decidir actualizar.
 
