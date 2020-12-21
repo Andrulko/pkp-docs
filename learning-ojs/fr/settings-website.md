@@ -58,8 +58,7 @@ Où vous pouvez télécharger des images (logo, vignette, page d'accueil) vers l
 
 Où vous pouvez télécharger votre feuille de style de la revu, Favicon et contenu supplémentaire.
 
-- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue.
-Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
+- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
 - **Favicon**: ajoutez un [favicon](https://en.wikipedia.org/wiki/Favicon) à afficher dans la barre d'adresse du navigateur du lecteur.
 
@@ -217,15 +216,15 @@ Ceci est un plugiciel installé et devra être activé sous Paramètres du site 
 
 Pour configurer le plugiciel:
 
-- Cliquez sur la flèche bleue à côté du nom du plugiciel
-- Cliquez sur le lien **Paramètres** qui apparaît en dessous.
+* Cliquez sur la flèche bleue à côté du nom du plugiciel
+* Cliquez sur le lien **Paramètres** qui apparaît en dessous.
 
 ![](./assets/learning-ojs-settings-plugin-citation-2.png)
 
-- Sélectionnez le format de citation principal que vous souhaitez utiliser dans la première liste, suivi des autres formats de citation que vous * souhaiteriez voir disponibles dans la deuxième liste
-- Ensuite, vous pouvez éventuellement sélectionner un format téléchargeable à mettre à la disposition des lecteurs pour l'exporter vers un logiciel de gestion de bibliographie
-- Vous pouvez également ajouter l'emplacement de votre publication/éditeur pour les citations qui le nécessitent
-- Cliquez sur **OK** lorsque vous avez terminé la configuration
+* Sélectionnez le format de citation principal que vous souhaitez utiliser dans la première liste, suivi des autres formats de citation que vous * souhaiteriez voir disponibles dans la deuxième liste
+* Ensuite, vous pouvez éventuellement sélectionner un format téléchargeable à mettre à la disposition des lecteurs pour l'exporter vers un logiciel de gestion de bibliographie
+* Vous pouvez également ajouter l'emplacement de votre publication/éditeur pour les citations qui le nécessitent
+* Cliquez sur **OK** lorsque vous avez terminé la configuration
 
 Désormais, le bloc Comment citer apparaîtra sur chaque page d'article de votre revue.
 
@@ -237,10 +236,10 @@ Désormais, le bloc Comment citer apparaîtra sur chaque page d'article de votre
 
 Pour configurer et ajouter des blocs personnalisés:
 
-- Cliquez sur Gérer les Blocs Personnalisés sous le nom du plugiciel
-- À partir de cet écran, cliquez sur Ajouter un Bloc pour créer un nouveau bloc ou cliquez sur Modifier ou Supprimer sous le nom du bloc pour gérer les blocs existants.
-- Lors de l'ajout d'un nouveau bloc, entrez un nom pour votre bloc (sans espaces ni caractères non alphanumériques) et le contenu à afficher dans la barre latérale.
-- L'affichage et l'ordre des blocs peuvent être modifiés dans la section Gestion de la barre latérale de Tableau de bord > Paramètres > Site Web > Apparence > Configuration.
+* Cliquez sur Gérer les Blocs Personnalisés sous le nom du plugiciel
+* À partir de cet écran, cliquez sur Ajouter un Bloc pour créer un nouveau bloc ou cliquez sur Modifier ou Supprimer sous le nom du bloc pour gérer les blocs existants.
+* Lors de l'ajout d'un nouveau bloc, entrez un nom pour votre bloc (sans espaces ni caractères non alphanumériques) et le contenu à afficher dans la barre latérale.
+* L'affichage et l'ordre des blocs peuvent être modifiés dans la section Gestion de la barre latérale de Tableau de bord > Paramètres > Site Web > Apparence > Configuration.
 
 #### Plugiciel d'En-Tête Personnalisé
 
@@ -274,9 +273,9 @@ Ensuite, vous devez créer un bloc personnalisé:
 <a class="twitter-timeline" href="https://twitter.com/asmecher?ref_src=twsrc%5Etfw">Tweets by asmecher</a>
 ```
 7. Des paramètres de chronologie personnalisés supplémentaires peuvent être ajoutés si vous le souhaitez, par exemple:
-```html
+````html
 <a class="twitter-timeline" "data-tweet-limit="3" ...
-```
+````
 8. Cliquez sur **Enregistrer**
 
 Enfin, vous devez ajouter le bloc personnalisé que vous venez de créer à votre barre latérale.
@@ -410,8 +409,8 @@ Pour configurer le plugiciel de statistiques d'utilisation, vous devez être un 
 
 Veuillez noter que:
 
-- Les statistiques d'utilisation ne peuvent être affichées que pour l'année en cours. Le plugiciel est réinitialisé au début de chaque année.
-- Les statistiques affichées indiquent le nombre de fois qu'un article a été téléchargé.
+* Les statistiques d'utilisation ne peuvent être affichées que pour l'année en cours. Le plugiciel est réinitialisé au début de chaque année.
+* Les statistiques affichées indiquent le nombre de fois qu'un article a été téléchargé.
 
 ## Pages Statiques
 
@@ -419,26 +418,26 @@ Le **plugiciel Pages Statiques** vous permet de créer de nouvelles pages sur le
 
 Pour utiliser le plugiciel Pages Statiques:
 
-- Accédez à Paramètres du site Web > Plugiciels et recherchez le plugiciel Pages Statiques
-- Activez le plugiciel en cochant la case à côté
-- Actualisez la page dans votre navigateur. Vous devriez maintenant voir un nouvel onglet à côté de **Plugiciels** appelé **Pages Statiques** .
-- Cliquez sur l'onglet **Pages Statiques**
+* Accédez à Paramètres du site Web > Plugiciels et recherchez le plugiciel Pages Statiques
+* Activez le plugiciel en cochant la case à côté
+* Actualisez la page dans votre navigateur. Vous devriez maintenant voir un nouvel onglet à côté de **Plugiciels** appelé **Pages Statiques** .
+* Cliquez sur l'onglet **Pages Statiques**
 
 ![](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
 
-- Ajoutez une nouvelle page en cliquant sur **Ajouter une Page Statique** .
-- Remplissez le formulaire qui s'ouvre avec le contenu que vous souhaitez avoir sur la page. Le **Chemin** sera utilisé dans le cadre de l'URL de la page et le **Titre** apparaîtra comme titre de la page.
+* Ajoutez une nouvelle page en cliquant sur **Ajouter une Page Statique** .
+* Remplissez le formulaire qui s'ouvre avec le contenu que vous souhaitez avoir sur la page. Le **Chemin** sera utilisé dans le cadre de l'URL de la page et le **Titre** apparaîtra comme titre de la page.
 
 ![](./assets/learning-ojs3.2-website-settings-add-static-page.png)
 
-- Vous pouvez prévisualiser la page pendant que vous travaillez en cliquant sur le lien **Aperçu** en bas du formulaire
-- Lorsque vous avez terminé de créer la page, cliquez sur **Enregistrer**
+* Vous pouvez prévisualiser la page pendant que vous travaillez en cliquant sur le lien **Aperçu** en bas du formulaire
+* Lorsque vous avez terminé de créer la page, cliquez sur **Enregistrer**
 
-Après avoir créé la page, vous voudrez l'ajouter à votre menu. Les instructions sur la façon de procéder se trouvent dans la section ci-dessus sur **les Menus de Navigation** .
+Après avoir créé la page, vous voudrez l'ajouter à votre menu.  Les instructions sur la façon de procéder se trouvent dans la section ci-dessus sur **les Menus de Navigation** .
 
 Pour modifier une page que vous avez créée avec le plugiciel:
 
-- Allez dans Paramètres du site Web > Pages Statiques
-- Cliquez sur **Modifier** à côté de la page que vous souhaitez modifier
-- Vous pouvez prévisualiser la page pendant que vous travaillez en cliquant sur le lien **Aperçu** en bas du formulaire
-- Lorsque vous avez terminé de modifier la page, cliquez sur **Enregistrer**
+* Allez dans Paramètres du site Web > Pages Statiques
+* Cliquez sur **Modifier** à côté de la page que vous souhaitez modifier
+* Vous pouvez prévisualiser la page pendant que vous travaillez en cliquant sur le lien **Aperçu** en bas du formulaire
+* Lorsque vous avez terminé de modifier la page, cliquez sur **Enregistrer**
