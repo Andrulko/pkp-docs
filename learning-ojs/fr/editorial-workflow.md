@@ -21,7 +21,7 @@ Certaines soumissions ne passeront pas le stade d'évaluation et se termineront 
 
 **Production** : Une fois que les révisions sont terminées et approuvées, la soumission passe à ce stade. En production, les fichiers révisés sont convertis en d'autres formats- HTML, XML, PDF, etc. Là encore, l'auteur a la possibilité de relire et corriger les épreuves. Une fois que tout le monde est satisfait, la soumission sera publiée dans une prochaine publication.
 
-<hr>
+<hr />
 
 ## Tâches
 
@@ -33,7 +33,7 @@ Les tâches fournissent un aperçu rapide des éléments qui nécessitent votre 
 
 Utilisez la case à cocher pour marquer les tâches à supprimer (le lien est disponible en bas de la liste).
 
-<hr>
+<hr />
 
 ## Notifications de Soumission
 
@@ -126,8 +126,7 @@ De là, vous pouvez voir:
 
 **État de la Soumission** Une fois qu'un(e) rédacteur/trice a enregistré une décision dans un stade du flux des travaux d'OJS 3.2, la décision enregistrée apparaîtra à la place des boutons de décision. Les rédacteurs auront toujours la possibilité de modifier la décision enregistrée en cliquant sur «Modifier la Décision», cela activera à nouveau les 3 options.
 
-![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
-*La capture d'écran ci-dessus montre le bouton de décision pour MS# 425 avant l'enregistrement d'une décision. La capture d'écran ci-dessous montre la notification de la décision enregistrée.*
+![](./assets/learning-ojs3.2_edflow_decisionstatus.png) *La capture d'écran ci-dessus montre le bouton de décision pour MS# 425 avant l'enregistrement d'une décision. La capture d'écran ci-dessous montre la notification de la décision enregistrée.*
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
@@ -159,8 +158,7 @@ Utilisez l'onglet Notes pour afficher ou ajouter des notes éditoriales.
 
 ### Accorder des Autorisations d'Auteur
 
-Dans OJS 3.2, les rédacteurs peuvent accorder l'accès pour permettre aux auteurs d'apporter des modifications aux métadonnées.
-Il y a deux façons dont les rédacteurs peuvent accorder ce type d'accès.
+Dans OJS 3.2, les rédacteurs peuvent accorder l'accès pour permettre aux auteurs d'apporter des modifications aux métadonnées. Il y a deux façons dont les rédacteurs peuvent accorder ce type d'accès.
 
 **Autorisation Globale**- accordera à tous les utilisateurs le rôle «auteur» ce qui est une autorisation de modifier les métadonnées.
 
@@ -244,7 +242,7 @@ Une fois que le/la Rédacteur/trice de Section est satisfait(e) et convaincu(e) 
 
 Gardez les fichiers à évaluer cochés.
 
-<hr>
+<hr />
 
 ## Évaluation
 
@@ -266,7 +264,7 @@ De plus, le/la Rédacteur/trice de la Revue peut ajouter une Note Éditoriale à
 
 ![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-Dans les versions OJS 3.0 à 3.1.0, vous ne pouvez pas affecter un-e utilisateur/trice pour évaluer une soumission s'ils sont également un-e rédacteur/trice de la soumission. Si vous le faites, le/la Rédacteur/trice ne pourra plus accéder la soumission après avoir soumis son évaluation, afin de maintenir les principes de l'évaluation à l'aveugle par les pairs. Cependant, à partir de OJS 3.1.1, vous pouvez affecter un-e utilisateur/trice pour réviser une soumission s'il/elle est également un-e rédacteur/trice de la soumission.
+Dans les versions OJS 3.0 à 3.1.0, vous ne pouvez pas affecter un-e utilisateur/trice pour évaluer une soumission s'ils sont également un-e rédacteur/trice de la soumission.  Si vous le faites, le/la Rédacteur/trice ne pourra plus accéder la soumission après avoir soumis son évaluation, afin de maintenir les principes de l'évaluation à l'aveugle par les pairs. Cependant, à partir de OJS 3.1.1, vous pouvez affecter un-e utilisateur/trice pour réviser une soumission s'il/elle est également un-e rédacteur/trice de la soumission.
 
 Au bas de ce formulaire, vous verrez des options pour:
 
@@ -348,12 +346,11 @@ Vous sélectionnerez ensuite les Évaluateurs avec lesquels vous souhaitez comme
 
 OJS est conçu pour accueillir différents types d'évaluations et comporte des étapes intégrées pour garantir l'anonymat.
 
-Toutes les informations seront visibles pour les directeurs et rédacteurs de la revue quel que soit le type d'évaluation sélectionné.
-Le type d'évaluation sera automatiquement sélectionné en fonction de ce qui a été configuré sous *Paramètres* > *Flux des Travaux* > *Évaluation*. Les rédacteurs peuvent modifier le type d'évaluation lors de l'envoi de la demande d'évaluation. Les rédacteurs/rédacteurs de section doivent sélectionner le type d'évaluation lors de l'envoi de la demande d'évaluation parmis les options suivantes:
+Toutes les informations seront visibles pour les directeurs et rédacteurs de la revue quel que soit le type d'évaluation sélectionné. Le type d'évaluation sera automatiquement sélectionné en fonction de ce qui a été configuré sous *Paramètres* > *Flux des Travaux* > *Évaluation*. Les rédacteurs peuvent modifier le type d'évaluation lors de l'envoi de la demande d'évaluation. Les rédacteurs/rédacteurs de section doivent sélectionner le type d'évaluation lors de l'envoi de la demande d'évaluation parmis les options suivantes:
 
-- Double-Aveugle
-- Aveugle
-- Ouvert
+* Double-Aveugle
+* Aveugle
+* Ouvert
 
 **Évaluation en Double-Aveugle**: l'identité de l'auteur et de l'évaluateur/trice sont gardées cachées.
 
@@ -433,8 +430,7 @@ Détails d'Évaluation. Il peut être utile de renommer le fichier au moment de 
 
 Cliquez sur Terminer et sélectionnez le fichier que vous souhaitez utiliser pour l'Évaluation.
 
-Les fichiers apparaîtront sous le téléchargement initial.
-Lors de l'envoi de la demande d'Évaluation, assurez-vous que le manuscrit original n'est pas sélectionné dans les «Fichiers à Évaluer».
+Les fichiers apparaîtront sous le téléchargement initial. Lors de l'envoi de la demande d'Évaluation, assurez-vous que le manuscrit original n'est pas sélectionné dans les «Fichiers à Évaluer».
 
 ![](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
@@ -488,8 +484,7 @@ Utilisez le bouton **Ajouter des Évaluations** pour importer les commentaires d
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-S'il y a des pièces jointes, comme un fichier balisé créé par un-e Évaluateur/trice, vous pouvez le joindre ici (tant qu'il a été anonymisé).
-Dans OJS 3.1.2 et versions ultérieures, vous pouvez également télécharger un nouveau fichier et l'ajouter en tant que pièce jointe.
+S'il y a des pièces jointes, comme un fichier balisé créé par un-e Évaluateur/trice, vous pouvez le joindre ici (tant qu'il a été anonymisé). Dans OJS 3.1.2 et versions ultérieures, vous pouvez également télécharger un nouveau fichier et l'ajouter en tant que pièce jointe.
 
 Appuyez sur le bouton **Enregistrer la Décision Éditoriale** pour envoyer le message.
 
@@ -561,15 +556,19 @@ Cela ouvrira une nouvelle fenêtre.
 
 ![](./assets/learning-ojs-3-ed-accept.png)
 
-Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
+Note that if the journal has enabled an article processing charge (APC) to be charged to authors, the option will appear at this stage to notify the author that the payment is due. Selecting "Request publication fee" will prompt a payment notification email to be sent to the author with payment instructions. For information about enabling author fees, please see the [Subscriptions chapter > Payment Types](./subscriptions#payment-types) and [Distribution settings > Enable Payments](./settings-distribution#enable-payments).
 
-La soumission est automatiquement déplacée vers l'étape de Révision.
+![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
 De retour sur l'onglet d'évaluation, vous remarquerez que le statut indique maintenant que la soumission a été acceptée.
 
+La soumission est automatiquement déplacée vers l'étape de Révision.
+
+Back on the review tab, you will notice that the status now indicates the submission has been accepted.
+
 ![](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
 
-<hr>
+<hr />
 
 ## Révision
 
@@ -587,25 +586,25 @@ Cela ouvrira une nouvelle fenêtre.
 
 Vous pouvez utiliser la liste déroulante des rôles pour choisir un-e Réviseur/euse et cliquer sur le bouton **Rechercher**. Cela fera apparaître tous les Réviseurs.
 
-Sélectionnez l'un des Réviseurs pour cette soumission.
-
-Choisissez un message préparé.
-
 Apportez les modifications nécessaires au message.
 
 Appuyez sur **Envoyer** .
 
 Vous pouvez maintenant voir la nouvelle notification indiquant que la soumission est en attente de révisions, le/la réviseur/euse est maintenant inclus dans la liste des Participants et la demande est visible dans les Discussions de Révision.
 
-![](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
+Appuyez sur **Continuer** pour continuer.
 
 Vous pouvez maintenant attendre que le/la réviseur/euse fasse son travail.
+
+![](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
+
+Pour commencer, ils doivent se connecter et trouver la soumission à partir de leur tableau de bord.
 
 ### Réviseur/euse
 
 Le/la réviseur/euse recevra un e-mail de le/la Rédacteur/trice de la Rubrique lui demandant de prendre en charge la soumission.
 
-Pour commencer, ils doivent se connecter et trouver la soumission à partir de leur tableau de bord.
+To get started, they must login and find the submission from their dashboard.
 
 ![](./assets/learning-ojs-3-ce-dash.png)
 
@@ -617,25 +616,25 @@ De là, ils peuvent voir les Fichiers Brouillons. Ce sont les fichiers qui néce
 
 En dehors d'OJS, ils effectueront le travail de révision.
 
-Pour vérifier les métadonnées de soumission, utilisez le lien Métadonnées dans la barre bleue en haut.
+Cela inclurait la vérification du titre de l'article, du résumé, des noms des auteurs, des mots clés, etc.
 
 ![](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
-Cela inclurait la vérification du titre de l'article, du résumé, des noms des auteurs, des mots clés, etc.
+Si des modifications sont apportées, cliquez sur le bouton **Enregistrer** avant de quitter cette fenêtre.
 
 ![](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
 
-Si des modifications sont apportées, cliquez sur le bouton **Enregistrer** avant de quitter cette fenêtre.
+Dans la fenêtre Ajouter une discussion, ils doivent choisir l'auteur et ajouter une ligne de sujet et un message.
 
 #### Consulter avec l'Auteur
 
 Une fois la révision terminée, ils exécuteront les modifications au-delà de l'auteur en ajoutant une nouvelle discussion, en utilisant le lien *Ajouter une discussion* du panneau de Discussions de Révision.
 
-Dans la fenêtre Ajouter une discussion, ils doivent choisir l'auteur et ajouter une ligne de sujet et un message.
+Plus bas dans cette même fenêtre, ils doivent téléverser une copie du fichier révisé.
 
 ![](./assets/learning-ojs-3-ce-add-discussion.png)
 
-Plus bas dans cette même fenêtre, ils doivent téléverser une copie du fichier révisé.
+Further down that same window, they must upload a copy of the copyedited file.
 
 ![](./assets/learning-ojs-3-ce-add-discussion2.png)
 
@@ -643,103 +642,103 @@ Pour ce faire, utilisez le lien *Téléverser un Fichier*. Cela ouvrira une nouv
 
 ![](./assets/learning-ojs-3-ce-upload1.png)
 
-Appuyez sur **Continuer** pour continuer.
-
-Cela ouvrira l'étape suivante, où vous pourrez modifier le nom de fichier si nécessaire.
-
-![](./assets/learning-ojs-3-ce-upload2.png)
+Cliquez sur **Enregistrer la Décision Éditoriale** pour continuer.
 
 Ensuite, vous pouvez télécharger plus de fichiers si nécessaire, ou appuyez sur **Terminé** .
 
-![](./assets/learning-ojs-3-ce-upload3.png)
+![](./assets/learning-ojs-3-ce-upload2.png)
 
 De retour dans la fenêtre Ajouter, vous pouvez maintenant voir le fichier joint.
 
-![](./assets/learning-ojs-3-ce-upload4.png)
+![](./assets/learning-ojs-3-ce-upload3.png)
 
 Appuyez sur **OK** pour envoyer le message à l'auteur.
 
-Le message est maintenant visible dans les Discussions de Révision.
+![](./assets/learning-ojs-3-ce-upload4.png)
 
-![](./assets/learning-ojs-3-ce-discussion.png)
+Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 Vous pouvez maintenant attendre la réponse de l'auteur.
 
-### L'Auteur Répond
+![](./assets/learning-ojs-3-ce-discussion.png)
 
 Une fois que vous avez reçu une réponse de l'auteur, vous pouvez consulter ses commentaires en vérifiant la réponse à la discussion.
 
-![](./assets/learning-ojs-3-se-author-copyedits.png)
+### L'Auteur Répond
 
 De là, vous pouvez voir qu'aucune autre modification n'est requise.
+
+![](./assets/learning-ojs-3-se-author-copyedits.png)
+
+Vous pouvez maintenant télécharger la version révisée finale dans le panneau Révisé, près du bas de l'écran.
 
 ![](./assets/learning-ojs-3-se-author-copyedits-reply.png)
 
 ### Le Fichier Révisé Final
 
-Vous pouvez maintenant télécharger la version révisée finale dans le panneau Révisé, près du bas de l'écran.
+Utilisez le lien Télécharger/Sélectionner des fichiers pour télécharger la version révisée finale.
 
 ![](./assets/learning-ojs-3-ce-copyedited.png)
 
-Utilisez le lien Télécharger/Sélectionner des fichiers pour télécharger la version révisée finale.
+Il est important de noter ici que vous avez quelques choix.
 
 ![](./assets/learning-ojs-3-ce-copyedited-upload-select.png)
 
-Il est important de noter ici que vous avez quelques choix.
+Appuyez sur **OK** .
 
 1. Vous pouvez utiliser le lien Télécharger un Fichier pour télécharger un nouveau fichier (par exemple, un fichier avec quelques modifications récentes depuis que vous l'avez montré à l'auteur).
 2. Vous pouvez sélectionner la version originale de l'auteur (peu probable).
 3. Vous pouvez sélectionner la version du/de la Réviseur/euse, qui est la version que vous avez envoyée à l'auteur (si vous n'avez apporté aucune autre modification, choisissez celle-ci).
 
-Pour cette démonstration, nous sélectionnerons la version du/de la Réviseur/euse **en cochant la case** à gauche de ce fichier.
-
-Appuyez sur **OK** .
-
 Le fichier est maintenant visible dans le panneau *Révisé* (près du bas de l'écran), indiquant au rédacteur/trice qu'il s'agit de la version finale, qui est prête pour l'étape de Production.
+
+Pour ce faire, sélectionnez le bouton bleu **Envoyer en Production** .
+
+L'étape finale consiste à informer le/la Rédacteur/trice de la Rubrique que la révision est terminée.
 
 ![](./assets/learning-ojs-3-ce-copyedited2.png)
 
 ### Informer le/le Rédacteur/trice de la Rubrique
 
-L'étape finale consiste à informer le/la Rédacteur/trice de la Rubrique que la révision est terminée.
-
-Pour ce faire, démarrez une nouvelle Discussion de Révision en utilisant le lien *Ajouter une Discussion* .
-
-![](./assets/learning-ojs-3-ce-copyedited-final.png)
+The final step is for you to inform the Section Editor that the copyediting is complete.
 
 Dans la fenêtre de discussion, ajoutez le/la Rédacteur/trice de de la Rubrique, une ligne de sujet, et un message.
 
-![](./assets/learning-ojs-3-ce-copyedited-discussion.png)
+![](./assets/learning-ojs-3-ce-copyedited-final.png)
 
 Appuyez sur **OK** pour envoyer le message.
 
-Retournant vers l'étape de Révision, vous pouvez voir que le message est publié.
+![](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-![](./assets/learning-ojs-3-ce-copyedited-done.png)
+Hit **OK** to send the message.
 
 Votre travail en tant que réviseur/euse est maintenant terminé!
 
+![](./assets/learning-ojs-3-ce-copyedited-done.png)
+
+Your work as the Copyeditor is now complete!
+
 ### Passer à la Production
-
-le/la Rédacteur/trice de la Rubrique recevra un email indiquant que la révision est terminée et verra une notification dans les discussions.
-
-![](./assets/learning-ojs-3-se-copyedited-dash.png)
 
 Vous pouvez télécharger et consulter la version révisée finale à partir du panneau Révisé.
 
-![](./assets/learning-ojs-3-se-copyedited-files.png)
+![](./assets/learning-ojs-3-se-copyedited-dash.png)
 
 À ce stade, vous pouvez communiquer davantage avec le/la Réviseur/euse ou, si vous êtes satisfait, déplacer la soumission vers l'étape de Production.
 
-Pour ce faire, sélectionnez le bouton bleu **Envoyer en Production** .
+![](./assets/learning-ojs-3-se-copyedited-files.png)
 
 Cela va générer un préavis officiel aux Auteurs indiquant que la soumission passe à l'étape suivante.
 
-![](./assets/learning-ojs-3-se-send-to-production.png)
+Pour cette démonstration, nous sélectionnerons la version du/de la Réviseur/euse **en cochant la case** à gauche de ce fichier.
 
 Notez que le fichier approprié, du panneau Révisé, est inclus et sera automatiquement transféré vers la Production.
 
-Cliquez sur **Enregistrer la Décision Éditoriale** pour continuer.
+![](./assets/learning-ojs-3-se-send-to-production.png)
+
+Notice that the appropriate file, from the Copyedited panel, is included and will be automatically transferred to Production.
+
+Hit **Record Editorial Decision** to proceed.
 
 L'étape de Révision est maintenant terminée et l'état de la soumission sera mis à jour. Le chapitre suivant couvre la phase de Production et de Publication.
 
