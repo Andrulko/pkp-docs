@@ -21,7 +21,7 @@ Ce guide couvre la version 3.2 d'OJS, publiée en février 2020, et présente de
 
 *Les origines d'OJS*. Le système a été lancé pour la première fois en 2001 en tant qu'initiative de recherche et développement à l'Université de British Columbia, avec le soutien du Conseil de recherches en sciences sociales et humaines du Canada, de la Max Bell Foundation, du Pacific Press Endowment et de la MacArthur Foundation. Son développement continu est actuellement supervisé par la Bibliothèque de l'Université Simon Fraser. Pour plus d'informations, consultez le [site Web du Projet Public Knowledge](https://pkp.sfu.ca) .
 
-<hr>
+<hr />
 
 ## Fonctionnalités OJS
 
@@ -53,7 +53,7 @@ Vous pouvez voir sur la capture d'écran que les fonctions utilisateur existent 
 
 ## Interface Éditoriale
 
-*Aussi connue sous le nom de "Le Tableau de Bord"*
+_Aussi connue sous le nom de "Le Tableau de Bord"_
 
 OJS 3.x a une interface distincte une fois que vous vous connectez au système éditorial. Cela facilite non seulement la personnalisation de l'interface du lecteur, mais offre également aux utilisateurs OJS de différentes revues une expérience cohérente.
 

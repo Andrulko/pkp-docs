@@ -1,0 +1,18 @@
+# Recommandations de configuration pour la conformité au RGPD
+
+Les pratiques suivantes fourniront un niveau plus élevé de protection de la vie privée des données et sont recommandées dans le cadre d'une tentative raisonnable de satisfaire aux exigences du RGPD.
+
+**Utilisation de SSL/HTTPS pour tout le trafic web.** OJS et OMP peuvent être utilisés en conjonction avec un certificat SSL afin que tout le trafic entre l'utilisateur et le serveur soit chiffré et transféré via [HTTPS](https://en.wikipedia.org/wiki/HTTPS). Pour activer ceci, installez un certificat SSL pour votre domaine (ou demandez à votre fournisseur de service de le faire) et réglez « force_ssl » sur « on » dans votre configuration. fichier nc.php.
+
+**Désactiver l'utilisation de CDN.** [Les réseaux de distribution de contenu](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN) sont utilisés par OJS et OMP pour fournir du contenu, y compris du javascript et des polices. Tout CDN peut enregistrer et suivre des informations détaillées sur les visiteurs chaque fois qu'ils sont chargés par le navigateur Web, y compris le temps ; adresse IP de l'utilisateur; navigateur Web; et page chargée. Les CDN peuvent être désactivés dans config.inc.php en définissant « enable_cdn » à « off ». (Note : cela ne désactivera pas nécessairement les CDN sont ajoutés au système par d'autres moyens, par exemple via des personnalisations de code, via des plugins tiers ou dans des champs de formulaire.)
+
+**Restreindre l'utilisation d'autres scripts tiers.** Les scripts tiers, tels que Google Analytics, ne doivent être utilisés que si l'application est requise et que les implications sont comprises. L'utilisation de ces scripts devrait être correctement identifiée dans la Déclaration de confidentialité.
+
+**Anonymiser les données d'utilisation.** OJS et OMP ont tous deux un plugin statistique d'utilisation qui fournit des métriques détaillées sur les vues de pages et les téléchargements de fichiers de galerie. Il crée et stocke également des fichiers journaux contenant des informations détaillées, y compris l'adresse IP, la date/heure de visite, les pages vues et les informations sur le navigateur. Ce plugin a une option « Respect de la vie privée des données » qui hachera les adresses IP, et informer les visiteurs que ces données sont en cours de suivi (avec une option de désinscription). Plus d'informations sont disponibles dans les endroits suivants :
+
+* OJS 2: Gestion des journaux > Plugins système > Plugins génériques > Plugin Statistiques d'utilisation > Paramètres.
+* OJS/OMP 3 : Paramètres > Site > Plugins > Plugins génériques > Plugin Statistiques d'utilisation > Paramètres.
+
+L'activation de l'option "Respecter la confidentialité des données" nécessitera une aide directe de l'administrateur système.
+
+**Utiliser le plugin Sharrif pour partager/réseaux sociaux.** Les plateformes de réseaux sociaux comme Twitter et Facebook fournissent tous des moyens d'intégrer des options de partage et d'autres fonctionnalités sociales dans vos sites, mais similaire aux CDN et autres options de script de tiers, ces scripts incorporables permettent généralement à la plateforme de médias sociaux de suivre l'utilisation de votre site Web. [OJS-de](http://www.ojs-de.net), le réseau utilisateur OJS allemand, a développé [un plugin](https://github.com/ojsde/shariff) pour fournir des médias sociaux et des fonctions de partage en utilisant la [solution Sharrif respectueuse de la vie privée](https://github.com/heiseonline/shariff). Il est disponible ici, pour OJS 2 et 3, et OMP 3 : [https://github.com/ojsde/shariff/releases](https://github.com/ojsde/shariff/releases).

@@ -1,0 +1,18 @@
+# Table des matières
+
+* [Guide RGPD pour les utilisateurs de PKP](.)
+* [Introduction](introduction.md)
+* [Termes clés](key-terms.md)
+* [« Qu'est-ce que l'affaire? »](whats-the-deal.md)
+* [Édition scolaire, Confidentialité des données et intérêt public](scholarly-publishing.md)
+* [Quelles données les applications PKP traitent-elles ?](what-data.md)
+  * [Données d'inscription de l'utilisateur](./what-data.md#user-registration-data)
+  * [Métadonnées du contributeur](./what-data.md#contributor-metadata)
+  * [Données du flux de travail](./what-data.md#workflow-data)
+  * [Informations générales sur le visiteur](./what-data.md#general-visitor-information)
+* [Quelles politiques les éditeurs doivent-ils fournir et où ?](what-policies.md)
+  * [1. Politique de consentement pour l'enregistrement et la collecte de données du contributeur](./what-policies.md#1-consent-policy-for-registration-and-contributor-data-collection)
+  * [2. Politique de confidentialité](./what-policies.md#2-privacy-policy)
+  * [3. Politique sur les cookies](./what-policies.md#3-cookie-policy)
+* [Recommandations de configuration pour la conformité au RGPD](configuration-options.md)
+* [Foire Aux Questions](gdpr-faq.md)

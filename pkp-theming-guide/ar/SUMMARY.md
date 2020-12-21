@@ -1,0 +1,23 @@
+# Summary
+
+* [مقدمة](.)
+* [ما هو الموضوع ؟](what-is-a-theme.md)
+   * [CSS/LESS](css-less.md)
+   * [قوالب HTML/Smarty](html-smarty.md)
+   * [إعداد السمة & تكوين](theme-setup.md)
+* [سمات فرعية](child-themes.md)
+* [متغيرات القالب الشائعة](template-variables.md)
+* [قالب API](theme-api.md)
+* [خيارات القالب API](theme-options-api.md)
+* [إصدارات النشر](publication-versions.md)
+* [أمان](security.md)
+* [موضوع الخلفية التحريرية](theme-backend.md)
+* [السمات](themes.md)
+   * [السمة الافتراضية](theme-default.md)
+   * [سمة Bootstrap3](theme-bootstrap3.md)
+   * [سمة كلاسيكية](theme-classic.md)
+   * [موضوع العلوم الصحية](theme-healthsciences.md)
+   * [سمة الغمار](theme-immersion.md)
+   * [السمة المخطوطة](theme-manuscript.md)
+* التقنيات المتقدمة
+   * [نقل البيانات إلى قوالب](advanced-custom-data.md)

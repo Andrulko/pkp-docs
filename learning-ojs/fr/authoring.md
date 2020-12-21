@@ -15,7 +15,7 @@ Pour soumettre une soumission à une revue OJS 3.2, vous devez d'abord créer un
 
 Il est actuellement vide car vous n'avez fait aucune soumission.
 
-<hr>
+<hr />
 
 ## Soumettre un article
 
@@ -65,7 +65,7 @@ Cliquez sur "Enregistrer et continuer" pour passer à l'étape 3.
 
 ### Étape 3
 
-À **l'étape 3** , il vous sera demandé d'ajouter plus d'informations sur la soumission, y compris le titre de la soumission (divisé en préfixe, titre et sous-titre) et le résumé. Si le journal autorise les soumissions dans plusieurs langues, cliquer sur chaque champ de métadonnées révélera l'option permettant de saisir les métadonnées dans les autres langues activées, vous permettant de saisir le titre, le sous-titre et le résumé dans les autres langues. Défilement vers le bas...
+À **l'étape 3** , il vous sera demandé d'ajouter plus d'informations sur la soumission, y compris le titre de la soumission (divisé en préfixe, titre et sous-titre) et le résumé. Si le journal autorise les soumissions dans plusieurs langues, cliquer sur chaque champ de métadonnées révélera l'option permettant de saisir les métadonnées dans les autres langues activées, vous permettant de saisir le titre, le sous-titre et le résumé dans les autres langues.  Défilement vers le bas...
 
 ![](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
@@ -111,11 +111,11 @@ Une boîte apparaîtra vous demandant de confirmer que vous avez terminé. Cliqu
 
 Votre soumission est maintenant terminée! L'éditeur a été informé de votre soumission. À cette étape, vous pouvez suivre les liens vers:
 
-- Réviser cette soumission
-- Faire une nouvelle soumission
-- Revenir à votre tableau de bord
+* Réviser cette soumission
+* Faire une nouvelle soumission
+* Revenir à votre tableau de bord
 
-Une fois que vous avez terminé une soumission, vous ne pouvez pas y apporter de modifications. Si vous souhaitez remplacer le fichier que vous avez soumis ou apporter d'autres modifications à la soumission, vous devrez contacter l'éditeur via l'outil Discussions de pré-évaluation.
+Une fois que vous avez terminé une soumission, vous ne pouvez pas y apporter de modifications.  Si vous souhaitez remplacer le fichier que vous avez soumis ou apporter d'autres modifications à la soumission, vous devrez contacter l'éditeur via l'outil Discussions de pré-évaluation.
 
 ### Tableau de Bord
 
@@ -125,7 +125,7 @@ Et voici votre soumission dans votre tableau de bord. Vous pouvez voir qu'il est
 
 Au cours des prochains jours, il passera à l'étape d'Évaluation et, s'il est accepté, aux étapes de Révision et de Production avant d'être publié.
 
-<hr>
+<hr />
 
 ## Révision des Métadonnées
 
@@ -145,7 +145,7 @@ Une fois que l'autorisation accordée, vous pourrez apporter des modifications a
 
 Si vous remarquez que le bouton «Enregistrer» est gris et inactif, cela signifie que vous devrez demander l'autorisation du Rédacteur pour apporter des modifications à votre soumission ou lui demander de faire les modifications pour vous.
 
-<hr>
+<hr />
 
 ## Répondre à une Revue
 
@@ -237,7 +237,7 @@ Cliquez sur le titre de la discussion pour l'ouvrir.
 
 Toutes nos félicitations! Vous avez été accepté et votre dossier de soumission passe à l'étape du Révision.
 
-<hr>
+<hr />
 
 ## Soumettre à Nouveau pour une Evaluation
 
@@ -251,7 +251,7 @@ Ajoutez une discussion pour informer le rédacteur que vous avez soumis à nouve
 
 Le processus d'évaluation par ses collègues sera répété et vous recevrez probablement des révisions supplémentaires à apporter. Une fois ceux-ci complétés et acceptés, vous serez alors déplacé vers l'étape suivante.
 
-<hr>
+<hr />
 
 ## Répondre à une Demande de Révision
 
@@ -281,7 +281,7 @@ Sur votre tableau de bord, vous pouvez voir que vous avez été la dernière per
 
 Votre rôle dans le processus de révision est maintenant terminé et vous pouvez attendre la demande de relecture des épreuves finales (par exemple, PDF, HTML, etc.) avant que la publication.
 
-<hr>
+<hr />
 
 ## Répondre à une Demande de Correction d'Épreuves
 

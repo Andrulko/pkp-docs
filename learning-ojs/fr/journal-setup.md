@@ -123,7 +123,7 @@ Lorsque vous avez créé plus d'une rubrique, vous verrez un lien Trier. Utilise
 
 Appuyez sur le bouton **OK** lorsque vous avez terminé.
 
-<hr>
+<hr />
 
 ## Catégories
 
@@ -132,27 +132,24 @@ Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles e
 ![](./assets/learning-ojs3.1-categories-menu.png)
 
 Pour créer une nouvelle catégorie:
-
-- Cliquez sur Ajouter une Catégorie
-- Entrez un nom pour votre catégorie qui sera affiché aux lecteurs
-- Entrez un chemin pour l'URL de la catégorie sur votre site
-- Entrez une description qui apparaîtra au-dessus de la liste des articles de la catégorie
-- Vous pouvez éventuellement modifier l'ordre des articles par date ou par titre
-- Ajoutez éventuellement une image qui apparaîtra en haut de la page de la catégorie
-- Cliquez sur OK
+* Cliquez sur Ajouter une Catégorie
+* Entrez un nom pour votre catégorie qui sera affiché aux lecteurs
+* Entrez un chemin pour l'URL de la catégorie sur votre site
+* Entrez une description qui apparaîtra au-dessus de la liste des articles de la catégorie
+* Vous pouvez éventuellement modifier l'ordre des articles par date ou par titre
+* Ajoutez éventuellement une image qui apparaîtra en haut de la page de la catégorie
+* Cliquez sur OK
 
 ![](./assets/learning-ojs3.1-create-category.png)
 
 Pour modifier une catégorie:
-
-- Cliquez sur le nom de la catégorie que vous souhaitez modifier
-- Faites les changements
-- Cliquez sur OK
+* Cliquez sur le nom de la catégorie que vous souhaitez modifier
+* Faites les changements
+* Cliquez sur OK
 
 Pour supprimer une catégorie:
-
-- Cliquez sur la flèche bleue à côté de la catégorie que vous souhaitez supprimer
-- Cliquez sur le bouton Supprimer qui apparaît ci-dessous
-- Confirmez que vous souhaitez supprimer la catégorie
+* Cliquez sur la flèche bleue à côté de la catégorie que vous souhaitez supprimer
+* Cliquez sur le bouton Supprimer qui apparaît ci-dessous
+* Confirmez que vous souhaitez supprimer la catégorie
 
 Pour afficher des catégories sur votre site web, vous pouvez accéder à Paramètres du Site Web > Gestion de la Barre Latérale et placer le bloc Parcourir sur votre barre latérale.

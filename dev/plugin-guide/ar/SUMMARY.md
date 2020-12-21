@@ -1,0 +1,23 @@
+# Summary
+
+* [مقدمة](.)
+* [بدء العمل](./getting-started)
+* [فئات الإضافات](./categories)
+  * [كتل](./categories#blocks)
+  * [استيراد/تصدير](./categories#importexport)
+  * [التقارير](./categories#reports)
+  * [السمات](./categories#themes)
+  * [Generic](./categories#generic)
+  * [اخرى](./categories#other)
+* [الترجمة](./translation)
+* [قوالب](./templates)
+* [إعدادات الإضافات](./settings)
+* [اطلق الاضافة](./release)
+* [أمثلة](./examples)
+  * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
+  * [إضافة أنماط ونصوص برمجية](./examples-styles-scripts)
+  * [السياق والموقع](./examples-context-site)
+  * [الحصول على البيانات](./examples-get-data)
+  * [الحصول على البيانات من القالب](./examples-get-data-template)
+  * [إضافة حقول مخصصة](./examples-custom-field)
+  * [إضافة صفحة مخصصة](./examples-custom-page)

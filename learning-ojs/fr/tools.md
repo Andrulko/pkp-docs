@@ -29,26 +29,26 @@ Le Plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions compl
 
 Le Plugiciel Quick Submit peut être utilisé dans les cas suivants:
 
-- Revues qui utilisent OJS pour afficher et publier leur contenu sans utiliser le flux des travaux éditorial
-- Revues publiées sur une autre plate-forme et migrant vers OJS, lorsqu'un outil de conversion pour cette plate-forme n'est pas disponible
-- Revues initialement publiées sur papier et digitalisées depuis
+* Revues qui utilisent OJS pour afficher et publier leur contenu sans utiliser le flux des travaux éditorial
+* Revues publiées sur une autre plate-forme et migrant vers OJS, lorsqu'un outil de conversion pour cette plate-forme n'est pas disponible
+* Revues initialement publiées sur papier et digitalisées depuis
 
 Pour utiliser ce plugiciel, vous aurez besoin des éléments suivants:
 
-- Être inscrit en tant qu'éditeur/trice ou directeur/trice de revue
-- Un ensemble de fichiers prêts à publier (par exemple, des PDF)
-- Toutes les métadonnées des fichiers (par exemple, noms d'auteurs, titres, résumés, etc.)
+* Être inscrit en tant qu'éditeur/trice ou directeur/trice de revue
+* Un ensemble de fichiers prêts à publier (par exemple, des PDF)
+* Toutes les métadonnées des fichiers (par exemple, noms d'auteurs, titres, résumés, etc.)
 
-Tout d'abord, assurez-vous que le plugin Quick Submit a été installé et activé pour votre journal. Vous premièrement avoir le rôle de Directeur/trice de Revue pour activer le plugiciel et le rôle d'Administrateur/trice pour installer le plugiciel.
+Tout d'abord, assurez-vous que le plugin Quick Submit a été installé et activé pour votre journal.  Vous premièrement avoir le rôle de Directeur/trice de Revue pour activer le plugiciel et le rôle d'Administrateur/trice pour installer le plugiciel.
 
 ![](./assets/find-plugins.png)
 
 1. Allez dans Paramètres > Site Web > Plugiciels
-2. Sous Plugiciels installés, recherchez le Plugiciel Quick Submit. Si vous le voyez dans la liste, passez à l'étape 8.
+2. Sous Plugiciels installés, recherchez le Plugiciel Quick Submit.  Si vous le voyez dans la liste, passez à l'étape 8.
 3. Si vous ne voyez pas le Plugiciel Quick Submit sous Plugiciels installés, accédez à l'onglet Galerie de Plugiciels.
 4. Cliquez sur Quick Submit. Une boîte de dialogue s'ouvre.
-5. Cliquez sur Installer. Si vous ne voyez pas le bouton Installer, vous devrez demander à l'Administrateur/trice de votre site d'installer le plugiciel pour vous.
-6. Une boîte de dialogue s'ouvre et demande "Êtes-vous sûr de vouloir installer ce plugiciel?" Cliquez sur OK et attendez quelques minutes pendant que l'installation se termine.
+5. Cliquez sur Installer.  Si vous ne voyez pas le bouton Installer, vous devrez demander à l'Administrateur/trice de votre site d'installer le plugiciel pour vous.
+6. Une boîte de dialogue s'ouvre et demande "Êtes-vous sûr de vouloir installer ce plugiciel?"  Cliquez sur OK et attendez quelques minutes pendant que l'installation se termine.
 7. Une fois le plugiciel installé, revenez à l'onglet Plugiciels Installés et recherchez le plugiciel Quick Submit.
 8. Cochez la case à droite du nom et de la description du plugiciel pour activer le plugiciel.
 
@@ -69,11 +69,11 @@ Ensuite, vous pouvez importer chaque article avec le Plugiciel.
 ![](./assets/import-plugins.png)
 
 1. Allez dans Outils > Importer/Exporter et sélectionnez Plugiciel de soumission expresse
-2. Téléversez une image de couverture si vous en avez une. Ce champ est facultatif et peut être ignoré.
+2. Téléversez une image de couverture si vous en avez une.  Ce champ est facultatif et peut être ignoré.
 3. Choisissez la section de la revue dans laquelle l'article apparaîtra dans la liste déroulante du champ Section.
 4. Saisissez les métadonnées de l'article dans les autres champs. Si vous ne voyez pas tous les champs de métadonnées souhaités, accédez à Paramètres du flux des travaux > Soumission > Métadonnées de Soumission pour configurer les champs à inclure dans les soumissions.
 5. Sous Liste des Contributeurs, cliquez sur Ajouter un Contributeur pour saisir les noms des auteurs et des autres contributeurs à l'article.
-6. Sous Épreuves, cliquez sur Ajouter une Épreuve pour télécharger un fichier PDF de l'article. Une boîte de dialogue s'ouvrira où vous pourrez entrer l'Étiquette de l'Épreuve et la langue de l'Épreuve. Une fois que vous avez cliqué sur Enregistrer, une autre boîte s'ouvre où vous pouvez sélectionner le Composant de l'Article et télécharger le fichier.
+6. Sous Épreuves, cliquez sur Ajouter une Épreuve pour télécharger un fichier PDF de l'article.  Une boîte de dialogue s'ouvrira où vous pourrez entrer l'Étiquette de l'Épreuve et la langue de l'Épreuve.  Une fois que vous avez cliqué sur Enregistrer, une autre boîte s'ouvre où vous pouvez sélectionner le Composant de l'Article et télécharger le fichier.
 7. À la fin du formulaire du Plugiciel de soumission expresse, vous pouvez choisir si vous souhaitez que l'article que vous ajoutez soit publié immédiatement ou non publié si vous souhaitez le publier plus tard. Si vous sélectionnez **Publié**, vous devrez sélectionner le numéro dans lequel vous souhaitez le publier et entrer la **Date de Publication**. Vous pouvez également saisir des numéros de page et des informations sur les autorisations.
 8. Lorsque vous avez terminé de saisir toutes les données de l'article, cliquez sur Enregistrer.
 
@@ -84,7 +84,7 @@ Les DOI ne sont pas ajoutés avec le plugiciel QuickSubmit. Au lieu de cela, vou
 Pour ajouter des DOI existants à des articles déjà attribués:
 
 1. Activez et configurez le plugiciel DOI de sorte que vous deviez "Entrer un suffixe DOI individuel pour chaque élément publié."
-2. Après avoir téléversé l'article avec le plugiciel de soumission expresse, cliquez sur «Aller à la Soumission» pour accéder à l'enregistrement de soumission de l'article. Ou accédez à l'enregistrement de soumission de l'article via le tableau de bord Soumissions.
+2. Après avoir téléchargé l'article avec le plugiciel QuickSubmit, cliquez sur «Aller à la Soumission» pour accéder à l'enregistrement de soumission de l'article. Ou accédez à l'enregistrement de soumission de l'article via le tableau de bord Soumissions.
 3. Ouvrez les Métadonnées en haut à droite et accédez à l'onglet Identificateurs
 4. Entrez le suffixe DOI de l'article.
 5. Cliquez sur Enregistrer puis enregistrez à nouveau pour attribuer le DOI
@@ -93,7 +93,7 @@ Pour ajouter des DOI existants à des articles déjà attribués:
 Pour attribuer de nouveaux DOI aux articles:
 
 1. Assurez-vous que le plugiciel DOI est activé et configuré
-2. Après avoir téléchargé l'article avec le plugiciel QuickSubmit, cliquez sur «Aller à la Soumission» pour accéder à l'enregistrement de soumission de l'article. Ou accédez à l'enregistrement de soumission de l'article via le tableau de bord Soumissions.
+2. Après avoir téléversé l'article avec le plugiciel de soumission expresse, cliquez sur «Aller à la Soumission» pour accéder à l'enregistrement de soumission de l'article. Ou accédez à l'enregistrement de soumission de l'article via le tableau de bord Soumissions.
 3. Ouvrez les Métadonnées en haut à droite et accédez à l'onglet Identificateurs. Vous devriez voir un aperçu du DOI qui sera attribué et une case cochée à côté de «Attribuer le DOI à cet article».
 4. Cliquez sur Enregistrer et le DOI sera attribué.
 

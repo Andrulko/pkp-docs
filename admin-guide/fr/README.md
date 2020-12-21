@@ -4,4 +4,4 @@ Le guide de l'administrateur PKP fournit des conseils sur l'administration des a
 
 Droit d'auteur: L'Université Simon Fraser détient les droits d'auteur pour les travaux produits par le Public Knowledge Project et a placé sa documentation sous une [Licence internationale Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) .
 
-[](https://creativecommons.org/licenses/by/4.0/)![Creative Commons Attribution 4.0 International](https://licensebuttons.net/l/by/4.0/88x31.png)
+[![Creative Commons Attribution 4.0 International](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

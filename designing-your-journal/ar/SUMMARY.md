@@ -1,0 +1,18 @@
+# جدول المحتويات
+
+* [مقدمة](./introduction.md)
+* [تصوير جريدتك](./branding.md)
+  * [الألوان](./branding.md#colours)
+  * [الطبقات](./branding.md#typography)
+  * [الصور](./branding.md#images)
+* [موضوع شامل ويمكن الوصول إليه](./inclusive-and-accessible-theming.md)
+  * [لون](./inclusive-and-accessible-theming.md#colour)
+  * [نص بديل للصور](./inclusive-and-accessible-theming.md#alternative-text-for-images)
+  * [عناوين URL الوصفية](./inclusive-and-accessible-theming.md#descriptive-urls)
+  * [بنية الصفحة](./inclusive-and-accessible-theming.md#page-structure)
+  * [التحقق من موقع الويب الخاص بك للحصول على إمكانية الوصول](./inclusive-and-accessible-theming.md#checking-your-website-for-accessibility)
+* [إعدادات الموقع](./website-settings.md)
+* [إنشاء ورقة نمطية](./creating-stylesheet.md)
+  * [تحديد عناصر CSS](./creating-stylesheet.md#identifying-elements-of-css)
+  * [إنشاء ملف CSS أساسي باستخدام القالب الافتراضي](./creating-stylesheet.md#create-a-basic-css-file-using-the-default-template)
+* [موارد إضافية](./resources.md)

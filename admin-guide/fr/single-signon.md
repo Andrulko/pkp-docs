@@ -7,7 +7,6 @@ Afin de synchroniser les comptes d'utilisateurs entre plusieurs applications, OJ
 *Shibboleth* est une alternative puissante à LDAP pour la gestion et l'authentification des utilisateurs, et sa popularité a grandi. Shibboleth offre les capacités de synchronisation de compte de LDAP ainsi que la fonctionnalité d'authentification unique (où la connexion à un service se connecte automatiquement à tous les autres), offrant une intégration plus harmonieuse entre vos applications Web. Cependant, Shibboleth peut être beaucoup plus complexe à installer et à configurer que LDAP.
 
 ## Configurer LDAP
-
 La configuration d'un serveur LDAP dépasse le cadre de ce guide, mais veuillez consulter la section des ressources pour deux guides utiles qui aident à la configuration et 'à la source LDAP'. De même, veuillez consulter la documentation de vos autres applications Web pour obtenir de l'aide sur l'intégration LDAP.
 
 Pour configurer LDAP dans OJS et OCS, connectez-vous en tant qu'administrateur du site, et sous «Gestion du site» sur la page d'accueil de l'administrateur, cliquez sur «Sources d'authentification». Sous «Créer une source d'authentification», sélectionnez «LDAP» et cliquez sur «Créer». Cela fera apparaître la page des paramètres LDAP.
@@ -18,21 +17,21 @@ Pour configurer LDAP dans OJS et OCS, connectez-vous en tant qu'administrateur d
 
 Le titre de votre configuration LDAP est arbitraire; laissez-le tel quel ou choisissez votre propre titre. Les trois paramètres suivants personnalisent le niveau d'intégration entre OJS / OCS et votre serveur LDAP.
 
-- *Activez la synchronisation du profil utilisateur*. Si coché, les informations de l'utilisateur, y compris les mots de passe, le nom, l'adresse e-mail, le numéro de téléphone et d'autres données personnelles seront automatiquement synchronisées entre la source LDAP et OJS / OCS, permettant un profil utilisateur cohérent entre les applications.
-- *Activez la modification du mot de passe utilisateur*. Si coché, permet aux utilisateurs de changer leur mot de passe et de récupérer les mots de passe perdus.
-- *Activez la création d'utilisateurs*. Si coché, tout utilisateur créé dans OJS / OCS sera automatiquement ajouté à la source LDAP.
+* *Activez la synchronisation du profil utilisateur*. Si coché, les informations de l'utilisateur, y compris les mots de passe, le nom, l'adresse e-mail, le numéro de téléphone et d'autres données personnelles seront automatiquement synchronisées entre la source LDAP et OJS / OCS, permettant un profil utilisateur cohérent entre les applications.
+* *Activez la modification du mot de passe utilisateur*. Si coché, permet aux utilisateurs de changer leur mot de passe et de récupérer les mots de passe perdus.
+* *Activez la création d'utilisateurs*. Si coché, tout utilisateur créé dans OJS / OCS sera automatiquement ajouté à la source LDAP.
 
 L'ensemble de paramètres suivant configure OJS / OCS pour permettre la communication avec le serveur LDAP.
 
 ![](./assets/LdapSettings.png)
 
-- *Nom d'hôte du serveur*. Domaine / adresse IP du serveur qui héberge la source LDAP. Si OJS / OCS s'exécute sur le même serveur que LDAP, vous pouvez entrer `localhost`.
-- *Port du serveur*. Si LDAP s'exécute sur un port atypique, entrez le numéro ici. Laissez ce champ vide si vous n'êtes pas sûr.
-- *DN de base*. C'est là que ça devient un peu compliqué. LDAP est conçu comme une arborescence de répertoires, tout comme le système de fichiers de votre ordinateur. Pour identifier l'entrée de répertoire pour rechercher des utilisateurs, le plug-in LDAP requiert le DN de base ou «Nom distinctif», sur lequel commencer la recherche. Dans l'exemple fourni, `ou=people,dc=example,dc=com`, 'ou' (ou 'Organization Unit') signifie le groupe principal d'utilisateurs, que vous devriez pouvoir déterminer à partir des fichiers de configuration de votre source LDAP. De même, le 'dc' (ou 'Domain Component') doit être sous 'suffix' dans le fichier de configuration de votre source LDAP. Chaque composant de domaine signifie un composant de votre nom de domaine (par exemple, example.com a les deux composants de domaine «exemple» et «com». Si vous utilisez un hôte local, utilisez `dc=localhost,dc=localdomain`.
-- *DN du gestionnaire*. Comme le DN de base, mais ce paramètre est requis pour que le plugin communique avec la source LDAP en tant qu'administrateur, c'est-à-dire pour effectuer des modifications administratives. Les composants du domaine doivent être les mêmes que le DN de base, mais le cn (ou 'Common Name', c'est-à-dire le surnom de l'utilisateur root) doit être 'Gestionnaire' ou ce qui a été défini dans la configuration de votre serveur LDAP.
-- *Attribut du nom de compte*. Cette valeur identifie de manière unique un objet utilisateur et doit être «uid» pour OpenLDAP, mais peut être différente pour d'autres sources LDAP (par exemple, ce serait sAMAccountName pour Microsoft Active Directory).
-- *Mot de passe du gestionnaire*. Le mot de passe du compte gestionnaire (requis uniquement si les options de synchronisation profil utilisateur / mot de passe ou de création d'utilisateur sont activées).
-- *Cryptage du mot de passe*. Pour des raisons de sécurité, il est recommandé d'utiliser une forme de cryptage de mot de passe. Si vous avez la version 4.3.0 ou supérieure de PHP, nous vous suggérons d'utiliser SSHA.
+* *Nom d'hôte du serveur*. Domaine / adresse IP du serveur qui héberge la source LDAP. Si OJS / OCS s'exécute sur le même serveur que LDAP, vous pouvez entrer `localhost`.
+* *Port du serveur*. Si LDAP s'exécute sur un port atypique, entrez le numéro ici. Laissez ce champ vide si vous n'êtes pas sûr.
+* *DN de base*. C'est là que ça devient un peu compliqué. LDAP est conçu comme une arborescence de répertoires, tout comme le système de fichiers de votre ordinateur. Pour identifier l'entrée de répertoire pour rechercher des utilisateurs, le plug-in LDAP requiert le DN de base ou «Nom distinctif», sur lequel commencer la recherche. Dans l'exemple fourni, `ou=people,dc=example,dc=com`, 'ou' (ou 'Organization Unit') signifie le groupe principal d'utilisateurs, que vous devriez pouvoir déterminer à partir des fichiers de configuration de votre source LDAP. De même, le 'dc' (ou 'Domain Component') doit être sous 'suffix' dans le fichier de configuration de votre source LDAP. Chaque composant de domaine signifie un composant de votre nom de domaine (par exemple, example.com a les deux composants de domaine «exemple» et «com». Si vous utilisez un hôte local, utilisez `dc=localhost,dc=localdomain`.
+* *DN du gestionnaire*. Comme le DN de base, mais ce paramètre est requis pour que le plugin communique avec la source LDAP en tant qu'administrateur, c'est-à-dire pour effectuer des modifications administratives. Les composants du domaine doivent être les mêmes que le DN de base, mais le cn (ou 'Common Name', c'est-à-dire le surnom de l'utilisateur root) doit être 'Gestionnaire' ou ce qui a été défini dans la configuration de votre serveur LDAP.
+* *Attribut du nom de compte*. Cette valeur identifie de manière unique un objet utilisateur et doit être «uid» pour OpenLDAP, mais peut être différente pour d'autres sources LDAP (par exemple, ce serait sAMAccountName pour Microsoft Active Directory).
+* *Mot de passe du gestionnaire*. Le mot de passe du compte gestionnaire (requis uniquement si les options de synchronisation profil utilisateur / mot de passe ou de création d'utilisateur sont activées).
+* *Cryptage du mot de passe*. Pour des raisons de sécurité, il est recommandé d'utiliser une forme de cryptage de mot de passe. Si vous avez la version 4.3.0 ou supérieure de PHP, nous vous suggérons d'utiliser SSHA.
 
 Facultativement, si vous avez la version 5.0 ou supérieure de PHP, vous pouvez configurer LDAP pour utiliser SASL (Simple Authentication and Security Layer) pour l'authentification. Cette fonctionnalité étant destinée aux utilisateurs avancés, veuillez consulter les liens dans la section Ressources pour plus d'informations.
 
@@ -68,7 +67,7 @@ L'extension LDAP de PHP n'est pas incluse par défaut et devra peut-être être 
 
 ## Ressources
 
-- [Quick HOWTO : Ch31 : Centralized Logins Using LDAP and RADIUS ](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch31_:_Centralized_Logins_Using_LDAP_and_RADIUS)
-- [OpenLDAP 2.1 Administrator's Guide: Using SASL](https://www.openldap.org/doc/admin21/sasl.html)
-- [Cyrus SASL for System Administrators](http://www.sendmail.org/~ca/email/cyrus/sysadmin.html)
-- [Shibboleth Documentation](https://wiki.shibboleth.net/confluence/display/SP3)
+* [Quick HOWTO : Ch31 : Centralized Logins Using LDAP and RADIUS ](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch31_:_Centralized_Logins_Using_LDAP_and_RADIUS)
+* [OpenLDAP 2.1 Administrator's Guide: Using SASL](https://www.openldap.org/doc/admin21/sasl.html)
+* [Cyrus SASL for System Administrators](http://www.sendmail.org/~ca/email/cyrus/sysadmin.html)
+* [Shibboleth Documentation](https://wiki.shibboleth.net/confluence/display/SP3)

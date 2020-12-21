@@ -1,5 +1,10 @@
-# تعليم نظام المجلات المفتوحة بنسخته 3.1: إرشادات المستخدم لنظام المجلات المفتوحة
+---
+book: تعلم - ojs
+version: 3.1
+---
 
-الحقوق الفكرية: إن جامعة سيمون فريزر تمتلك الحقوق الفكرية للأعمال المنضوية تحت مشروع المعرفة العامة وقد وضعت ملفات توثيقه ضمن [الرخصة الدولية للأعمال الإبداعية المشاعة، النسخة 4.0](https://creativecommons.org/licenses/by/4.0/).
+# Learning OJS 3.1: دليل مرئي لنظم اليومية المفتوحة
 
-[![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)
+حقوق التأليف والنشر: تحتفظ جامعة سيمون فريزر بحقوق التأليف والنشر للعمل الذي ينتجه مشروع المعرفة العامة ووضعت وثائقها تحت [قاعدة المشاع الإبداعي 4. الترخيص الدولي](https://creativecommons.org/licenses/by/4.0/).
+
+[![](https://licensebuttons.net/l/by/4.0/88x31.png "العموم الإبداعي نسبة 4.0 الدولية")](https://creativecommons.org/licenses/by/4.0/)
