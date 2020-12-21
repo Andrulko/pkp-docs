@@ -77,7 +77,7 @@ Pour ajouter une autre langue:
 2. Cochez les Paramètres Régionaux que vous souhaitez installer
 3. Cliquez sur Enregistrer
 
-Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues. Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
+Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues.  Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
 
 OJS 3.1 n'a pas encore autant de traductions que OJS 2, mais nous nous attendons à avoir plus contribué au fil du temps. Les contributions sont toujours les bienvenues.
 
@@ -97,7 +97,7 @@ Utilisez cette section pour modifier les menus de votre site. Vous pouvez en sav
 
 Une fois que vous avez créé un journal et configuré les paramètres du site, vous souhaiterez peut-être créer un compte d'utilisateur pour le/la directeur/trice ou l'éditeur/trice de la revue - voir le [Chapitre Utilisateurs et Rôles](./users-and-roles.md) pour plus de détails.
 
-<hr>
+<hr />
 
 ## Fonctions Administratives
 
