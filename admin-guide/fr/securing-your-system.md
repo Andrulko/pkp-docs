@@ -4,7 +4,7 @@
 
 Veuillez consulter [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README) , [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README) ou [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README) pour vous assurer que le répertoire d'installation du logiciel et le dossier `/files` sont configurés en toute sécurité sur votre serveur.
 
-En général, le dossier `/files` ne doit pas être accessible sur le Web et doit être placé en dehors du répertoire principal d'installation du logiciel. L'application gérera l'accès aux fichiers de soumission privés en fonction des rôles et des autorisations des utilisateurs (c'est-à-dire que les éditeurs auront accès à tous les fichiers de soumission, tandis que les auteurs ne pourront accéder qu'à leurs propres fichiers de soumission).
+En général, le dossier `/files` ne doit pas être accessible sur le Web et doit être placé en dehors du répertoire principal d'installation du logiciel. The software application will manage access to private submission files based on user roles and permissions \(i.e. L'application gérera l'accès aux fichiers de soumission privés en fonction des rôles et des autorisations des utilisateurs (c'est-à-dire que les éditeurs auront accès à tous les fichiers de soumission, tandis que les auteurs ne pourront accéder qu'à leurs propres fichiers de soumission).
 
 De plus, pour garantir la sécurité, le dossier `/files` ne devrait pas être lisible par les autres utilisateurs du serveur. Seul le serveur Web doit disposer des autorisations de lecture/écriture nécessaires pour que OJS, OMP ou OCS puisse lire les fichiers existants et ajouter de nouveaux fichiers au dossier, par exemple
 
@@ -28,14 +28,14 @@ Pour vous assurer que les demandes de réinitialisation du mot de passe des util
 
 Un déploiement sécurisé du logiciel PKP peut être réalisé au mieux en utilisant les recommandations suivantes, qui sont décrites dans le document/README à chaque téléchargement du logiciel:
 
-- Dédiez une base de données à OJS, OMP et OCS; utilisez des informations d'identification uniques pour y accéder. Configurez cette base de données pour effectuer régulièrement des sauvegardes automatiques. Effectuez une sauvegarde manuelle lors de la mise à niveau ou de la maintenance. Si vous n'avez pas accès à votre base de données, contactez votre administrateur de système et assurez-vous que des sauvegardes de base de données sont en cours pour votre OJS.
-- Configurez le logiciel ( `config.inc.php` ) pour utiliser le hachage SHA1 à la place du MD5.
-- Activez le captcha ou le recaptcha dans votre fichier `config.inc.php`, et vérifiez qu'ils fonctionnent. Cela empêchera la plupart des inscriptions d'utilisateurs de spam.{/code0}
-- Configurez le logiciel ( `config.inc.php` ) pour utiliser `force_login_ssl` afin que les utilisateurs authentifiés communiquent avec le serveur via HTTPS. (Vous devrez également créer et configurer correctement un certificat SSL pour le faire correctement.)
-- Installez le logiciel de sorte que le répertoire de fichiers ne soit PAS un sous-répertoire de l'installation OJS, OMP ou OCS et ne soit pas accessible directement via le serveur Web.
-- Limitez les autorisations de fichiers autant que possible.
-- Déployez et testez un mécanisme de sauvegarde approprié. Le mécanisme de sauvegarde doit sauvegarder la base de données, les fichiers système, et le répertoire des fichiers de soumission (le paramètre `files_dir` dans `config.inc.php`). Idéalement, vous devez effectuer des sauvegardes sur et hors site.
-- Assurez-vous que votre environnement de serveur Web est régulièrement mis à jour, en particulier avec tous correctifs de sécurité.
+* Dédiez une base de données à OJS, OMP et OCS; utilisez des informations d'identification uniques pour y accéder. Configurez cette base de données pour effectuer régulièrement des sauvegardes automatiques. Effectuez une sauvegarde manuelle lors de la mise à niveau ou de la maintenance. Si vous n'avez pas accès à votre base de données, contactez votre administrateur de système et assurez-vous que des sauvegardes de base de données sont en cours pour votre OJS.
+* Configurez le logiciel ( `config.inc.php` ) pour utiliser le hachage SHA1 à la place du MD5.
+* Activez le captcha ou le recaptcha dans votre fichier `config.inc.php`, et vérifiez qu'ils fonctionnent. Cela empêchera la plupart des inscriptions d'utilisateurs de spam.{/code0}
+* Configurez le logiciel ( `config.inc.php` ) pour utiliser `force_login_ssl` afin que les utilisateurs authentifiés communiquent avec le serveur via HTTPS. (Vous devrez également créer et configurer correctement un certificat SSL pour le faire correctement.)
+* Installez le logiciel de sorte que le répertoire de fichiers ne soit PAS un sous-répertoire de l'installation OJS, OMP ou OCS et ne soit pas accessible directement via le serveur Web.
+* Limitez les autorisations de fichiers autant que possible.
+* Déployez et testez un mécanisme de sauvegarde approprié. Le mécanisme de sauvegarde doit sauvegarder la base de données, les fichiers système, et le répertoire des fichiers de soumission (le paramètre `files_dir` dans `config.inc.php`). Idéalement, vous devez effectuer des sauvegardes sur et hors site.
+* Assurez-vous que votre environnement de serveur Web est régulièrement mis à jour, en particulier avec tous correctifs de sécurité.
 
 Si ces étapes sont suivies, vous réduirez considérablement le risque de devenir la proie des techniques de piratage courantes. Si vous utilisez déjà OJS, OMP ou OCS, nous vous recommandons vivement de revoir vos configurations existantes et de vous assurer que ces étapes ont été suivies.
 
@@ -43,11 +43,11 @@ Si ces étapes sont suivies, vous réduirez considérablement le risque de deven
 
 Les auteurs, les réviseurs et les éditeurs traitent quotidiennement les fichiers de soumission de personnes qu'ils ne connaissent pas, et il y a quelques précautions de base que vous voudrez prendre pour limiter la possibilité d'être compromis via l'un de ces fichiers. Ces étapes ne diffèrent pas de la façon dont vous traiteriez le courrier électronique ou toute autre vie quotidienne sur Internet, mais méritent d'être décrites de manière générale ici.
 
-- Assurez-vous que vous disposez d'un logiciel antivirus installé et qu'il est à jour
-- Assurez-vous que votre système d'exploitation et tous les logiciels (en particulier Word et Excel) sont tenus à jour, idéalement en activant toutes les fonctionnalités de mise à jour automatique disponibles.
-- Assurez-vous d'avoir une solution de sauvegarde disponible pour vos ordinateurs de travail
-- Pratiquez une bonne gestion des mots de passe: n'utilisez pas le même nom d'utilisateur/mot de passe dans OJS, OMP ou OCS comme vous le feriez pour tout autre compte en ligne, et n'utilisez pas un mot de passe facile à deviner
-- Traitez tout ce que vous obtenez en ligne en sachant que vous l'avez reçu de quelqu'un que vous ne connaissez pas et agissez comme tel. Si une soumission semble suspecte, quelle que soit la raison (adresse e-mail étrange, titre ou résumé générique suspect, etc.), traitez les fichiers inclus avec un niveau de diligence supplémentaire.
+* Assurez-vous que vous disposez d'un logiciel antivirus installé et qu'il est à jour
+* Assurez-vous que votre système d'exploitation et tous les logiciels (en particulier Word et Excel) sont tenus à jour, idéalement en activant toutes les fonctionnalités de mise à jour automatique disponibles.
+* Assurez-vous d'avoir une solution de sauvegarde disponible pour vos ordinateurs de travail
+* Pratiquez une bonne gestion des mots de passe: n'utilisez pas le même nom d'utilisateur/mot de passe dans OJS, OMP ou OCS comme vous le feriez pour tout autre compte en ligne, et n'utilisez pas un mot de passe facile à deviner
+* Traitez tout ce que vous obtenez en ligne en sachant que vous l'avez reçu de quelqu'un que vous ne connaissez pas et agissez comme tel. Si une soumission semble suspecte, quelle que soit la raison (adresse e-mail étrange, titre ou résumé générique suspect, etc.), traitez les fichiers inclus avec un niveau de diligence supplémentaire.
 
 ## Cryptage
 
@@ -57,9 +57,9 @@ L'utilisation du cryptage SSL/TLS pour sécuriser votre site offre des avantages
 
 ### Avantages en matière de Sécurité et de Confidentialité
 
-- Les navigateurs Web ont commencé à afficher des avertissements concernant les sites non sécurisés pour ces sites Web encore servis sous http. Les utilisateurs qui voient un tel message lorsqu'ils visitent votre site peuvent donner l'impression qu'un site semble illégitime ou potentiellement malveillant.
-- Sans cryptage, les connexions administrateur et utilisateur reçoivent un texte clair, exposant potentiellement ces informations d'identification à quiconque analyse le réseau.
-- Sans cryptage, vous ne protégez pas ce que vos utilisateurs accèdent ou recherchent sur votre site. Quiconque analyse le réseau peut voir ces requêtes.
+* Les navigateurs Web ont commencé à afficher des avertissements concernant les sites non sécurisés pour ces sites Web encore servis sous http. Les utilisateurs qui voient un tel message lorsqu'ils visitent votre site peuvent donner l'impression qu'un site semble illégitime ou potentiellement malveillant.
+* Sans cryptage, les connexions administrateur et utilisateur reçoivent un texte clair, exposant potentiellement ces informations d'identification à quiconque analyse le réseau.
+* Sans cryptage, vous ne protégez pas ce que vos utilisateurs accèdent ou recherchent sur votre site. Quiconque analyse le réseau peut voir ces requêtes.
 
 ### Avantages de l'Optimisation des Moteurs de Recherche (OMR)
 
@@ -67,7 +67,7 @@ Google a annoncé en 2014 que https [serait traité comme un signal de classemen
 
 ### Obtenir un Certificat
 
-Un certificat permet une connexion sécurisée du navigateur Web de l'utilisateur au serveur hébergeant votre site. L'installation d'un certificat pour votre site ne peut pas être effectuée dans le logiciel OJS, OMP ou OCS et nécessitera une expertise technique ou une assistance au niveau du serveur. Lors de l'examen d'un logiciel hôte, la détermination de son niveau de prise en charge des certificats est une considération importante.
+Un certificat permet une connexion sécurisée du navigateur Web de l'utilisateur au serveur hébergeant votre site.  L'installation d'un certificat pour votre site ne peut pas être effectuée dans le logiciel OJS, OMP ou OCS et nécessitera une expertise technique ou une assistance au niveau du serveur.  Lors de l'examen d'un logiciel hôte, la détermination de son niveau de prise en charge des certificats est une considération importante.
 
 Un bon début consiste à demander à votre fournisseur de services d'hébergement s'il dispose d'une solution existante pour prendre en charge les certificats TLS ou SSL - Votre fournisseur d'hébergement peut être en mesure de créer/émettre un certificat TLS ou SSL pour vous. Si vous ne disposez pas d'un accès shell à votre installation, cela peut être le seul moyen d'ajouter une protection SSL/TLS à votre site.
 
@@ -75,19 +75,18 @@ L'achat d'un certificat peut également être une option à votre disposition. L
 
 [Let's Encrypt](https://letsencrypt.org/) est également une option populaire pour obtenir un abonnement. Let's Encrypt est une autorité de certification (AC) gratuite, automatisée et ouverte, exécutée dans l'intérêt du public. Il s'agit d'un service fourni par l'Internet Security Research Group (ISRG). Les certificats sont fournis gratuitement, avec certaines limitations:
 
-- Seuls les certificats VD (Validation de Domaine) sont proposés
-- Un peu plus technique, si votre hébergeur ne vous prend pas déjà en charge, vous devrez générer à partir du shell
+* Seuls les certificats VD (Validation de Domaine) sont proposés
+* Un peu plus technique, si votre hébergeur ne vous prend pas déjà en charge, vous devrez générer à partir du shell
 
 ### Activation de SSL (nécessite accès au shell):
 
 #### Génération de DSC (Demande de Signature de Certificat)
 
 Étape requise pour générer un certificat si vous allez acheter un certificat auprès d'une autorité de certification qui n'est pas Let's Encrypt. Pour ce qui est de la façon de procéder, cela varie d'une distribution Linux à l'autre, quelques exemples Linux courants peuvent être trouvés ici:
-
-- [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
-- [CentOS/RHEL 7](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-7)
-- [Génération du certificat LetsEncrypt à l'aide de Certbot à travers Shell](https://certbot.eff.org/) (fournit des instructions personnalisées en fonction de l'environnement d'hébergement Apache, Nginx, etc.)
-- [Guide to generating a .CSR in Apache](https://www.alphassl.com/support/create-csr/apache.html)
+* [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
+* [CentOS/RHEL 7](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-7)
+* [Génération du certificat LetsEncrypt à l'aide de Certbot à travers Shell](https://certbot.eff.org/) (fournit des instructions personnalisées en fonction de l'environnement d'hébergement Apache, Nginx, etc.)
+* [Guide to generating a .CSR in Apache](https://www.alphassl.com/support/create-csr/apache.html)
 
 #### Maintenir vos Certificats
 
