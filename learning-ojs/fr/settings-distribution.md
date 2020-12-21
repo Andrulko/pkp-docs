@@ -51,7 +51,7 @@ Utilisez **Balises Personnalisées** pour ajouter des balises d'en-tête HTML pe
 
 OJS offre la possibilité de collecter des paiements en ligne et de gérer les abonnements et les paiements des frais d'auteur.
 
-En utilisant le plugiciel PayPal, vous pouvez accepter les paiements via PayPal, ou vous pouvez accepter les paiements manuels (comme les chèques, les virements par e-mail, etc.), mais ils doivent être effectués en dehors d'OJS et ne sont pas automatiquement enregistrés dans OJS. Si vous souhaitez utiliser un autre service de paiement, vous devrez créer votre propre plugiciel.
+En utilisant le plugiciel PayPal, vous pouvez accepter les paiements via PayPal, ou vous pouvez accepter les paiements manuels (comme les chèques, les virements par e-mail, etc.), mais ils doivent être effectués en dehors d'OJS et ne sont pas automatiquement enregistrés dans OJS.  Si vous souhaitez utiliser un autre service de paiement, vous devrez créer votre propre plugiciel.
 
 ### Activer les Paiements
 
@@ -69,7 +69,7 @@ Pour accepter des paiement PayPal, vous devrez allez à Paramètres Site Web > P
 
 ![](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
-Si vous sélectionnez **Paiement Manuel des Frais** sous **Plugiciels de Paiement**, un champ apparaîtra dans lequel vous pourrez saisir des instructions qui apparaîtront aux utilisateurs qui effectuent un paiement manuel. Par exemple, «Envoyez un chèque à l'ordre de Public Knowledge Project» à «______».
+Si vous sélectionnez **Paiement Manuel des Frais** sous **Plugiciels de Paiement**, un champ apparaîtra dans lequel vous pourrez saisir des instructions qui apparaîtront aux utilisateurs qui effectuent un paiement manuel.  Par exemple, «Envoyez un chèque à l'ordre de Public Knowledge Project» à «______».
 
 ![](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
 
@@ -112,5 +112,7 @@ Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des
 Si vous êtes membre d'un réseau LOCKSS ou CLOCKSS, utilisez cet onglet pour activer votre revue. Le plugiciel PKP PN, qui dépose votre contenu dans le PKP Preservation Network, n'est pas encore disponible pour OJS 3.
 
 Si vous utilisez un autre réseau, l'activer ici rendra votre contenu disponible sur le réseau, mais vous devrez également contacter le réseau pour lui faire connaître votre revue.
+
+If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
 ![](./assets/learning-ojs3.2-jm-settings-web-archive.png)
