@@ -1,3 +1,8 @@
-## منتدى مشروع المعرفة العامة
+---
+book: دليل الترجمة
+version: 3.1
+---
 
-إن مشروع المعرفة العامة قد أنشأ [منتدى عام](https://forum.pkp.sfu.ca/) في 2015. المنتدى يشتغل ببرنامج مفتوح المصدر [Discourse](http://www.discourse.org/). فيه مقطع مخصص [للترجمات](https://forum.pkp.sfu.ca/c/translations). 
+## منتدى PKP
+
+بدأ PKP في منتدى [جديد للمجتمع](https://forum.pkp.sfu.ca/) في عام 2015. يعمل المنتدى على برنامج المصدر المفتوح [خطاب](http://www.discourse.org/). هناك قسم في [الترجمات](https://forum.pkp.sfu.ca/c/translations). 
