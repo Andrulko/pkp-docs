@@ -1,0 +1,15 @@
+# Summary
+
+* [مقدمة](.)
+* [بدء العمل](./getting-started)
+  * [تهيئة البيئة الخاصة بك](./getting-started#configure-your-environment)
+  * [تشغيل اختبارات التكامل](./getting-started#run-integration-tests)
+  * [تشغيل اختبار وحدة PHP](./getting-started#run-php-unit-tests)
+* [التكامل المستمر](./continuous-integration)
+  * [اختبارات طلبات السحب](./continuous-integration#tests-for-pull-requests)
+* [اختبارات الكتابة](./writing-tests)
+  * [الأوامر](./writing-tests#commands)
+* [أخطاء اختبار التصحيح](./debug)
+  * [محلي](./debug#debug-locally)
+  * [التكامل المستمر](./debug#debug-ci)
+* [الإضافات والمواضيع](./plugins-themes)
