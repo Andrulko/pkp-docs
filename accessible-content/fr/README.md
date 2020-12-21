@@ -6,6 +6,10 @@ This guide will be useful for authors in preparation of their manuscripts and fo
 
 <hr />
 
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+![](https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg)
+
+Droit d'auteur: L'Université Simon Fraser détient les droits d'auteur pour les travaux produits par le Public Knowledge Project et a placé sa documentation sous une [Licence internationale Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) .
 
 [![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)
+
+NEW
