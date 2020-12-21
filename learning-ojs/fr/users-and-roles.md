@@ -129,15 +129,27 @@ Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a pe
 2. Trouvez l'utilisateur qui ne peut pas se connecter et cliquez sur la flèche bleue à côté de son nom
 3. Regardez sous leur nom pour **Activer** ou **Désactiver.** Si Désactiver apparaît, le compte est déjà activé. Si Activer apparaît, cliquez dessus pour réactiver le compte.
 
-<hr>
+<hr />
 
 ## Rôles
 
-Les utilisateurs du système doivent avoir un ou plusieurs rôles.
+The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Les utilisateurs du système doivent avoir un ou plusieurs rôles. Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/trice, un-e rédacteur/trice et un-e auteur dans la même revue.
 
-Les rôles définissent ce qu'un-e utilisateur/trice peut faire dans le système. Un auteur peut faire des soumissions et rien d'autre. Un-e rédacteur/trice peut gérer les soumissions et un-e directeur/trice de revue peut configurer les paramètres du journal. Voir le [Chapitre Comptes d'Utilisateurs](./user-accounts#rôles-dans-ojs) pour une liste et une description de chaque rôle.
+Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow.
 
-Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/trice, un-e rédacteur/trice et un-e auteur dans la même revue.
+There are a number of predefined roles that you can use and edit in OJS. Read in-depth about these predefined roles organized by their permissions level. Italicized roles are new in OJS 3.
+
+* The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings.
+* **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings. Available predefined Journal Manager roles: Journal Manager, Journal Editor (formerly “Editor” in OJS 2), Production Manager
+* **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings. Available predefined Section Editor roles: Section Editor, *Guest Editor*
+* **Assistants** can access only the parts of the Editorial Workflow assigned to their role. Available predefined Assistant roles and their assigned editorial workflow stages:
+    * Submission & Review stages: *Funding coordinator*
+    * Copyediting stage: Copyeditor, *Marketing and sales coordinator*
+    * Production Stage: *Designer*, *Indexer*, Layout Editor, Proofreader
+* **Niveau d'Autorisation**: indique ce qu'un-e utilisateur/trice avec ce rôle peut faire à n'importe quelle étape.
+* **Nom du Rôle**: vous pouvez utiliser ce champ pour renommer facilement n'importe quel rôle.
+* **Readers** can access the reader-facing website. This is the minimum permissions level granted to all users.
+* **Subscription Managers** can edit site access settings as well as settings related to subscriptions. This is a new permissions level in OJS 3, with one predefined role, *Subscription Manager*.
 
 Voici un exemple des rôles et des niveaux d'autorisation respectifs dans un flux des travaux de revue typique:
 
@@ -145,35 +157,38 @@ Voici un exemple des rôles et des niveaux d'autorisation respectifs dans un flu
 
 Sur cette page, vous pouvez voir chaque rôle et la phase éditoriale à laquelle chaque rôle peut accéder. Un bon exemple de ceci est le rôle de Réviseur/euse, qui ne peut accéder qu'à l'étape de révision. Les réviseurs ne peuvent pas passer à l'étape d'évaluation pour voir ce qui s'est passé pendant le processus d'évaluation par les pairs. Voir le chapitre Flux des Travaux éditorial pour plus d'informations sur les différentes étapes éditoriales.
 
+Décocher une case supprime l'accès à cette étape pour les utilisateurs ayant ce rôle.
+
+
 ### Modification des Rôles
 
-Décocher une case supprime l'accès à cette étape pour les utilisateurs ayant ce rôle.
+Unchecking a box removes access to that stage for users with that role.
 
 La sélection de la flèche bleue à gauche du nom du rôle révèle le lien de modification. Cliquez dessus pour ouvrir la fenêtre d'édition.
 
 ![](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
-**Niveau d'Autorisation**: indique ce qu'un-e utilisateur/trice avec ce rôle peut faire à n'importe quelle étape.
+**Restrictions Supplémentaires d'Accès au Site et à l'Article**: choisissez parmi ces options pour limiter l'accès.
 
 Le niveau Assistant-e de Revue peut communiquer avec d'autres utilisateurs et télécharger et réviser des fichiers. Dans les revues où un-e seul-e utilisateur/trice a reçu un rôle d'assistant-e, il/elle sera automatiquement affecté-e à une nouvelle soumission. Une fois qu'une deuxième personne a reçu ce rôle, cette action s'arrête.
-
-**Nom du Rôle**: vous pouvez utiliser ce champ pour renommer facilement n'importe quel rôle.
 
 **Abréviation**: chaque rôle doit avoir une abréviation unique.
 
 **Attribution d'Étape**: cela vous permet de déterminer à quelle étape les utilisateurs avec ce rôle peuvent accéder.
 
+**Stage Assignment**: This allows you to determine which stage users with this role can access.
+
 **Options de Rôle**: utilisez ces cases à cocher pour afficher toute personne ayant ce rôle dans la liste des contributeurs (par exemple, la liste des auteurs). Depuis OJS 3.2, les rôles peuvent être autorisés à modifier les métadonnées de soumission en cochant la case.
 
 Utilisez la deuxième option pour déterminer si les utilisateurs peuvent s'inscrire eux-mêmes dans ce rôle. Les auteurs et les évaluateurs sont de bons candidats pour l'auto-inscription. Vous ne voudriez certainement PAS permettre aux utilisateurs de s'auto-enregistrer en tant que Directeurs ou Éditeurs de la Revue!
 
-La troisième option est utile pour les rédacteurs invités ou éventuellement les rédacteurs de rubrique, selon votre flux des travaux et votre chaîne d'autorité préférés.
+Utilisez le lien *Créer de Nouveaux Rôles* pour ouvrir une fenêtre dans laquelle vous pouvez créer un nouveau rôle pour votre revue, notamment en définissant les étapes auxquelles le rôle peut accéder et le niveau d'autorisation dont il doit disposer.
 
 ### Créer de Nouveaux Rôles
 
-Utilisez le lien *Créer de Nouveaux Rôles* pour ouvrir une fenêtre dans laquelle vous pouvez créer un nouveau rôle pour votre revue, notamment en définissant les étapes auxquelles le rôle peut accéder et le niveau d'autorisation dont il doit disposer.
+Use the _Create New Roles_ link to open a window where you can create a new role for your journal, including setting which stages it can access and how much permission it should have.
 
-<hr>
+<hr />
 
 ## Options d'Accès au Site
 
@@ -181,10 +196,10 @@ Cette page vous permet de déterminer comment les lecteurs peuvent accéder à v
 
 ![](./assets/learning-ojs3.1-jm-users-siteoptions.png)
 
-**Restrictions Supplémentaires d'Accès au Site et à l'Article**: choisissez parmi ces options pour limiter l'accès.
+**Inscription des Utilisateurs**: cette option vous permet de déterminer si les utilisateurs peuvent créer leurs propres comptes ou s'ils doivent être inscrits par un-e Directeur/trice de Revue.
 
 > Gardez à l'esprit que même si le fait d'exiger une inscription pour lire le contenu en libre accès peut être pratique pour votre suivi, cela peut dissuader certaines personnes de lire votre contenu. Utiliser avec précaution.
 
-**Inscription des Utilisateurs**: cette option vous permet de déterminer si les utilisateurs peuvent créer leurs propres comptes ou s'ils doivent être inscrits par un-e Directeur/trice de Revue.
+**User Registration**: This option allows you to determine whether users can create their own accounts or must be enrolled by a Journal Manager.
 
 > Permettre aux utilisateurs de s’enregistrer eux-mêmes, mais uniquement dans les rôles d’auteur, de évaluateur/trice ou de lecteur/trice, est un bon choix.
